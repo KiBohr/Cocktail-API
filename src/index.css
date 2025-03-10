@@ -1,0 +1,25 @@
+@import "tailwindcss";
+
+@theme {
+    --color-dark-blue: #262B46;
+    --color-light-blue: #6FC3DF;
+    --color-purple: #8D82C4;
+    --color-green: #87C5A4;
+    --color-blue: #8EA9E8;
+    --color-orange: #E7B788;
+    --color-red: #EC8D81;
+    --color-text: #FFFFFF;
+  }
+  
+  @font-face {
+    font-family: Playfair;
+    font-style: normal;
+    font-weight: 200 700;
+    src: url("../public/fonts/PlayfairDisplay-VariableFont_wght.ttf") format("woff2");
+  }
+  @font-face {
+    font-family: Mont;
+    font-style: normal;
+    font-weight: 200 700;
+    src: url("../public/fonts/Montserrat-VariableFont_wght.ttf") format("woff2");
+  }
