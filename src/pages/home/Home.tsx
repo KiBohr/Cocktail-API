@@ -7,8 +7,8 @@ const Home = () => {
         <ItemCard path="cocktail/vodka" linkText="Vodka" color="purple"/>
         <ItemCard path="cocktail/rum" linkText="Rum" color="red"/>
         <ItemCard path="cocktail/scotch" linkText="Scotch" color="orange"/>
-        <ItemCard path="" linkText="non alcoholic" color="blue"/>
-        <ItemCard path="" linkText="Random Drink" color="green"/>
+        <ItemCard path="noalc" linkText="non alcoholic" color="blue"/>
+        <ItemCard path="random" linkText="Random Drink" color="green"/>
     </div>
      );
 }

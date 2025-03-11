@@ -3,3 +3,9 @@ export interface ICard {
   linkText: string;
   color: string;
 }
+
+export interface ISpecifics {
+  linkText: string;
+  path: string;
+  name: string;
+}

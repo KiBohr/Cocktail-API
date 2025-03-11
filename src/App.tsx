@@ -9,9 +9,9 @@ function App() {
     createRoutesFromElements(
       <Route path="/" element={<Layout/>}>
         <Route index element={<Home/>}/>
-        {/* <Route path="/drinks" element={<Drinks/>}/> */}
         <Route path="cocktail/:farid" element={<Drinks/>} />
-        {/* <Route path="/DIY" element="/> für die Extra page */} 
+        <Route path="random" element={<Drinks/>} />
+        <Route path="noalc" element={<Drinks/>}/>
       </Route>
     )
   )
