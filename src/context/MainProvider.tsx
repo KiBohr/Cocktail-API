@@ -41,6 +41,7 @@ const MainProvider = ({children} : {children: React.ReactNode}) => {
             // } 
             else {
                 url = `https://www.thecocktaildb.com/api/json/v1/1/random.php`
+                setBgColor("green")
             }
 
             try{
